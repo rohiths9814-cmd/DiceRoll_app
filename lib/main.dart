@@ -11,6 +11,8 @@ void main() {
                 const Color.fromARGB(255, 31, 0, 84),
                 const Color.fromARGB(255, 18, 178, 84)
               ],
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
             ),
           ),
           child:  Center(
@@ -18,6 +20,7 @@ void main() {
               'Hello World',
               style: TextStyle(
                 color: Colors.white,
+                fontSize: 28,
               ),
             ),
           ),
